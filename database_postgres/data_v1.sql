@@ -4,17 +4,17 @@
 --INSERT INTO  usuario(nombre_usuario, password) VALUES ('azulgrana@gmail.com', 'x123');
 --INSERT INTO  usuario(nombre_usuario, password, premium) VALUES ('tyler.durden@gmail.com', 'asdfd', TRUE);
 
-INSERT INTO Persona VALUES(1005965561, 'cra16#15-20','Santiago','Ospitia','3154148727', '12345678');
+INSERT INTO Persona VALUES(1005965561, 'cra16#15-20','Juan','Osorio','3156561874', '12345678');
 INSERT INTO Trabajador(cedula, estrellas) VALUES (1005965561, 4.5);
 INSERT INTO Labor(id_trabajador,precioHora,nombreLabor) VALUES ((SELECT MAX(id_trabajador) FROM Trabajador), 10, 'Profesor');
 INSERT INTO Trabajador_labor(id_labor,id_trabajador) VALUES ((SELECT MAX(id_labor) FROM Labor),(SELECT MAX(id_trabajador) FROM Trabajador));
 
-INSERT INTO Persona VALUES(1005965156, 'cra15#16-02','Santiago','Trujillo','3154148738', '10987654');
+INSERT INTO Persona VALUES(1005965156, 'cra15#16-02','Mauricio','Lopez','3542356586', '10987654');
 INSERT INTO Usuario_app(id_telefono, cedula, email, medio_pago) VALUES ('3154148738', 1005965156, 'asd@gmail.com', 'Masterdcard');
 --INSERT INTO Labor(id_trabajador,precioHora,nombreLabor) VALUES ((SELECT MAX(id_trabajador) FROM Trabajador), 10, 'Profesor');
 --INSERT INTO Trabajador_labor(id_labor,id_trabajador) VALUES ((SELECT MAX(id_labor) FROM Labor),(SELECT MAX(id_trabajador) FROM Trabajador));
 
-INSERT INTO Persona VALUES(1006955156, 'cra40#16-02','Hassen','Ortiz',3214148738, '098765432');
+INSERT INTO Persona VALUES(1006955156, 'cra10#16-02','camilo','Ortiz',3256597894, '098765432');
 INSERT INTO Usuario_app(id_telefono, cedula, email, medio_pago) VALUES (3214148738, 1006955156, 'das@gmail.com', 'Visa');
 
 
