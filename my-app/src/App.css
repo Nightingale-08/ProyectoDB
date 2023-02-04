@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: rgb(32, 32, 32);
+  color: #fff;
+  padding: 0.5%;
+  text-align: center;
+  font-family: cursive;
+  font-size: x-large;
+  margin-bottom: 10px;
+  
+  
+}
+.app-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.app-wel{
+  margin-top: 5%;
+  text-align: center;
+  font-size: x-large;
+}
+.app-p{
+  text-align: center;
+  font-size: large;
+  color: #fff;
+}
+
+.App-link {
+  color: #ffffff;
+}
+
+
+.welcome ul {
+  margin-bottom: 10px;
+  align-items: center;
+  font-size: x-large;
+  color: #fff;
+}
+
+.bt{
+
+  font-size: larger; 
+  line-height: 30px;
+    margin: 2%;
+    width: 400px;
+    background-color: rgb(92, 166, 161);
+    width: 150px;
+    height: 50px;
+}
+
